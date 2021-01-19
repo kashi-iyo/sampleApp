@@ -1,0 +1,5 @@
+create_table "users", id: :string, limit: 36, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+  t.string "name",   null: false
+  t.datetime "created_at",   null: false
+  t.datetime "updated_at",   null: false
+end
